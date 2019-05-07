@@ -1,0 +1,92 @@
+apply plugin: 'com.android.application'
+
+android {
+    compileSdkVersion rootProject.ext.compileSdkVersion
+    buildToolsVersion rootProject.ext.buildToolsVersion
+    defaultConfig {
+        applicationId "com.wind.canada"
+        minSdkVersion rootProject.ext.minSdkVersion
+        targetSdkVersion rootProject.ext.targetSdkVersion
+        versionCode 1
+        versionName "0.0.1"
+        multiDexEnabled true
+        testInstrumentationRunner "android.support.test.runner.AndroidJUnitRunner"
+
+        manifestPlaceholders = [
+                QQKey: "tencent1106953978",
+//                BaiduMapKey:"OPew2WvwF0p8kevKUiiP317jGqZpipkd",
+//                UMengKey:"5b163efa8f4a9d16e500000d",
+//                WechatAppId:"wx3a265515b4fb46d7",
+//                JPUSH_PKGNAME : applicationId,
+//                JPUSH_APPKEY : "645c2fbcb213e3287154ca38", //JPush上注册的包名对应的appkey.
+//                JPUSH_CHANNEL : "cacart", //用户渠道统计的渠道名称
+//                APPName:"@string/app_name"
+        ]
+    }
+
+    signingConfigs {
+        release {
+            storeFile file("../canada_key.jks")
+            storePassword "canada_wind_2019"
+            keyAlias "canadaApp"
+            keyPassword "canada_wind_2019"
+        }
+    }
+
+
+    buildTypes {
+        debug {
+            versionNameSuffix "-debug"
+            minifyEnabled false
+            zipAlignEnabled false
+            shrinkResources false
+
+            signingConfig signingConfigs.release
+        }
+
+        release {
+            signingConfig signingConfigs.release
+            minifyEnabled false
+            proguardFiles getDefaultProguardFile('proguard-android.txt'), 'proguard-rules.pro'
+
+
+            android.applicationVariants.all { variant ->
+                // 更新至Android Studio 3.3 gradle 4.10.1       
+                variant.outputs.all {
+//                    outputFileName = "app_release_${variant.versionName}_${releaseTime()}.apk"
+                    outputFileName = "app_release_${variant.versionName}.apk"
+                }
+            }
+        }
+    }
+
+    lintOptions {
+        disable 'GoogleAppIndexingWarning'
+    }
+
+}
+
+//获取编译时间
+static def releaseTime() {
+    return new Date().format("yyyy-MM-dd", TimeZone.getTimeZone("UTC"))
+}
+
+
+dependencies {
+    implementation fileTree(dir: 'libs', include: ['*.jar'])
+    implementation rootProject.ext.appcompatVersion
+    implementation rootProject.ext.supportDesignVersion
+    implementation rootProject.ext.supportV4Version
+    implementation 'com.android.support.constraint:constraint-layout:1.1.3'
+    testImplementation 'junit:junit:4.12'
+    androidTestImplementation 'com.android.support.test:runner:1.0.2'
+    androidTestImplementation 'com.android.support.test.espresso:espresso-core:3.0.2'
+
+    implementation 'org.greenrobot:eventbus:3.0.0'
+    implementation'com.alibaba:fastjson:1.2.22'
+    implementation 'com.facebook.fresco:fresco:1.5.0'
+
+    implementation project(':commonutil')
+    implementation project(':xrecyclerview')
+    implementation project(':banner')
+}

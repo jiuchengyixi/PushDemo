@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="colorPrimary">#ffffff</color>
+    <color name="colorPrimaryDark">#333333</color>
+    <color name="colorAccent">#F03B3F</color>
+
+    <color name="wheel_line_border">#C7C7C7</color>
+    <color name="wheel_bg">#efE9E9E9</color>
+
+    <color name="white">#ffffff</color>
+    <color name="white80">#ccffffff</color>
+    <color name="black">#ff000000</color>
+    <color name="transparent">#00000000</color>
+    <color name="half_transparent_light">#80ffffff</color>
+    <color name="half_transparent_light_light">#30ffffff</color>
+    <color name="half_transparent_light_gray">#50888888</color>
+    <color name="half_transparent_dark">#80000000</color>
+    <color name="transparent_dark">#DD000000</color>
+
+    <color name="light_gray">#eeeeee</color>
+
+    <color name="text_666">#666666</color>
+    <color name="text_ccc">#cccccc</color>
+    <color name="text_999">#999999</color>
+    <color name="text_333">#333333</color>
+    <color name="text_white">#ffffff</color>
+
+    <color name="text_primary">#333333</color>
+    <color name="text_hint">#BEBEBE</color>
+
+    <color name="line">#EDF0F3</color>
+</resources>

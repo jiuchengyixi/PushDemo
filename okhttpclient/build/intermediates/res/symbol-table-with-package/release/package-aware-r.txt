@@ -1,0 +1,2 @@
+com.android.common.httpclient
+string app_name

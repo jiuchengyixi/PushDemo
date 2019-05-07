@@ -1,0 +1,54 @@
+<?xml version="1.0" encoding="utf-8"?>
+<merger version="3"><dataSet aapt-namespace="http://schemas.android.com/apk/res-auto" config="main$Generated" generated="true" ignore_pattern="!.svn:!.git:!.ds_store:!*.scc:.*:&lt;dir>_*:!CVS:!thumbs.db:!picasa.ini:!*~"><source path="/Users/winding-yefeng/AndroidDemoPro/canada/banner/src/main/res"/><source path="/Users/winding-yefeng/AndroidDemoPro/canada/banner/build/generated/res/rs/release"/><source path="/Users/winding-yefeng/AndroidDemoPro/canada/banner/build/generated/res/resValues/release"/></dataSet><dataSet aapt-namespace="http://schemas.android.com/apk/res-auto" config="main" generated-set="main$Generated" ignore_pattern="!.svn:!.git:!.ds_store:!*.scc:.*:&lt;dir>_*:!CVS:!thumbs.db:!picasa.ini:!*~"><source path="/Users/winding-yefeng/AndroidDemoPro/canada/banner/src/main/res"><file name="white_radius" path="/Users/winding-yefeng/AndroidDemoPro/canada/banner/src/main/res/drawable/white_radius.xml" qualifiers="" type="drawable"/><file name="black_background" path="/Users/winding-yefeng/AndroidDemoPro/canada/banner/src/main/res/drawable/black_background.xml" qualifiers="" type="drawable"/><file name="gray_radius" path="/Users/winding-yefeng/AndroidDemoPro/canada/banner/src/main/res/drawable/gray_radius.xml" qualifiers="" type="drawable"/><file name="banner" path="/Users/winding-yefeng/AndroidDemoPro/canada/banner/src/main/res/layout/banner.xml" qualifiers="" type="layout"/><file path="/Users/winding-yefeng/AndroidDemoPro/canada/banner/src/main/res/values/attr.xml" qualifiers=""><declare-styleable name="Banner">
+        <attr format="integer" name="delay_time"/>
+        <attr format="integer" name="scroll_time"/>
+        <attr format="boolean" name="is_auto_play"/>
+        <attr format="color|reference" name="title_background"/>
+        <attr format="color" name="title_textcolor"/>
+        <attr format="dimension" name="title_textsize"/>
+        <attr format="dimension" name="title_height"/>
+        <attr format="dimension" name="indicator_width"/>
+        <attr format="dimension" name="indicator_height"/>
+        <attr format="dimension" name="indicator_margin"/>
+        <attr format="reference" name="indicator_drawable_selected"/>
+        <attr format="reference" name="indicator_drawable_unselected"/>
+        <attr format="reference" name="layout_id"/>
+        <attr format="enum" name="image_scale_type">
+            <enum name="center" value="0"/>
+            <enum name="center_crop" value="1"/>
+            <enum name="center_inside" value="2"/>
+            <enum name="fit_center" value="3"/>
+            <enum name="fit_end" value="4"/>
+            <enum name="fit_start" value="5"/>
+            <enum name="fit_xy" value="6"/>
+            <enum name="matrix" value="7"/>
+        </attr>
+        
+        
+    </declare-styleable></file><file path="/Users/winding-yefeng/AndroidDemoPro/canada/banner/src/main/res/values/ids.xml" qualifiers=""><item name="bannerContainer" type="id"/><item name="bannerViewPager" type="id"/><item name="circleIndicator" type="id"/><item name="numIndicator" type="id"/><item name="titleView" type="id"/><item name="bannerTitle" type="id"/><item name="numIndicatorInside" type="id"/><item name="indicatorInside" type="id"/></file><file name="scale_with_alpha" path="/Users/winding-yefeng/AndroidDemoPro/canada/banner/src/main/res/animator/scale_with_alpha.xml" qualifiers="" type="animator"/></source><source path="/Users/winding-yefeng/AndroidDemoPro/canada/banner/build/generated/res/rs/release"/><source path="/Users/winding-yefeng/AndroidDemoPro/canada/banner/build/generated/res/resValues/release"/></dataSet><dataSet aapt-namespace="http://schemas.android.com/apk/res-auto" config="release$Generated" generated="true" ignore_pattern="!.svn:!.git:!.ds_store:!*.scc:.*:&lt;dir>_*:!CVS:!thumbs.db:!picasa.ini:!*~"><source path="/Users/winding-yefeng/AndroidDemoPro/canada/banner/src/release/res"/></dataSet><dataSet aapt-namespace="http://schemas.android.com/apk/res-auto" config="release" generated-set="release$Generated" ignore_pattern="!.svn:!.git:!.ds_store:!*.scc:.*:&lt;dir>_*:!CVS:!thumbs.db:!picasa.ini:!*~"><source path="/Users/winding-yefeng/AndroidDemoPro/canada/banner/src/release/res"/></dataSet><mergedItems><configuration qualifiers=""><declare-styleable name="Banner">
+        <attr format="integer" name="delay_time"/>
+        <attr format="integer" name="scroll_time"/>
+        <attr format="boolean" name="is_auto_play"/>
+        <attr format="color|reference" name="title_background"/>
+        <attr format="color" name="title_textcolor"/>
+        <attr format="dimension" name="title_textsize"/>
+        <attr format="dimension" name="title_height"/>
+        <attr format="dimension" name="indicator_width"/>
+        <attr format="dimension" name="indicator_height"/>
+        <attr format="dimension" name="indicator_margin"/>
+        <attr format="reference" name="indicator_drawable_selected"/>
+        <attr format="reference" name="indicator_drawable_unselected"/>
+        <attr format="reference" name="layout_id"/>
+        <attr format="enum" name="image_scale_type">
+            <enum name="center" value="0"/>
+            <enum name="center_crop" value="1"/>
+            <enum name="center_inside" value="2"/>
+            <enum name="fit_center" value="3"/>
+            <enum name="fit_end" value="4"/>
+            <enum name="fit_start" value="5"/>
+            <enum name="fit_xy" value="6"/>
+            <enum name="matrix" value="7"/>
+        </attr>
+        
+        
+    </declare-styleable></configuration></mergedItems></merger>

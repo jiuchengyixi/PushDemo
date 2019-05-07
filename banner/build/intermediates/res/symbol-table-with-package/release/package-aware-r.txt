@@ -1,0 +1,37 @@
+com.youth.banner
+animator scale_with_alpha
+attr delay_time
+attr image_scale_type
+attr indicator_drawable_selected
+attr indicator_drawable_unselected
+attr indicator_height
+attr indicator_margin
+attr indicator_width
+attr is_auto_play
+attr layout_id
+attr scroll_time
+attr title_background
+attr title_height
+attr title_textcolor
+attr title_textsize
+drawable black_background
+drawable gray_radius
+drawable white_radius
+id bannerContainer
+id bannerTitle
+id bannerViewPager
+id center
+id center_crop
+id center_inside
+id circleIndicator
+id fit_center
+id fit_end
+id fit_start
+id fit_xy
+id indicatorInside
+id matrix
+id numIndicator
+id numIndicatorInside
+id titleView
+layout banner
+styleable Banner delay_time image_scale_type indicator_drawable_selected indicator_drawable_unselected indicator_height indicator_margin indicator_width is_auto_play layout_id scroll_time title_background title_height title_textcolor title_textsize

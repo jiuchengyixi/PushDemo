@@ -1,0 +1,63 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="@dimen/title_bar_height">
+
+    <LinearLayout
+        android:id="@+id/layout_title_container"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:background="@color/bg_main"
+        android:gravity="center_vertical"
+        android:orientation="horizontal"
+        android:paddingLeft="5dp"
+        android:paddingRight="@dimen/common_padding_10">
+
+        <!-- todo 后退图标  -->
+        <ImageView
+            android:id="@+id/btn_title_back"
+            android:layout_width="24dp"
+            android:layout_height="32dp"
+            android:padding="5dp"
+            android:layout_centerVertical="true" />
+
+        <ImageView
+            android:id="@+id/btn_title_close"
+            android:layout_width="24dp"
+            android:layout_height="24dp"
+            android:layout_marginLeft="6dp"
+            android:visibility="gone" />
+
+        <TextView
+            android:id="@+id/tv_title_title"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:gravity="center"
+            android:maxLines="1"
+            android:textColor="@color/text_title"
+            android:textSize="18dp"
+            android:textStyle="bold" />
+
+        <TextView
+            android:id="@+id/tv_title_right"
+            android:layout_width="56dp"
+            android:layout_height="28dp"
+            android:textColor="@color/text_title"
+            android:gravity="center"
+            android:textSize="14dp"
+            android:visibility="gone"/>
+
+        <ImageView
+            android:id="@+id/img_title_right"
+            android:layout_width="24dp"
+            android:layout_height="24dp"
+            android:visibility="gone" />
+    </LinearLayout>
+
+    <View
+        android:id="@+id/view_title_line"
+        android:layout_width="match_parent"
+        android:layout_height="1dp"
+        android:layout_gravity="bottom" />
+</FrameLayout>

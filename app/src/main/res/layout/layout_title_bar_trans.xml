@@ -1,0 +1,98 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/layout_title_container"
+    android:layout_width="match_parent"
+    android:layout_height="@dimen/title_bar_height"
+    android:paddingLeft="5dp"
+    android:paddingRight="6dp">
+
+    <!-- todo 后退图标  -->
+    <ImageView
+        android:id="@+id/btn_title_back"
+        android:layout_width="24dp"
+        android:layout_height="32dp"
+        android:padding="5dp"
+        android:layout_centerVertical="true" />
+
+    <TextView
+        android:id="@+id/tv_left_title"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textSize="16dp"
+        android:textColor="@color/text_999"
+        android:layout_centerVertical="true"
+        android:padding="5dp"
+        android:visibility="gone"/>
+
+    <TextView
+        android:id="@+id/tv_title_title"
+        android:layout_width="wrap_content"
+        android:layout_height="match_parent"
+        android:layout_centerInParent="true"
+        android:maxLines="1"
+        android:gravity="center_vertical"
+        android:textColor="@color/text_333"
+        android:textSize="18dp" />
+
+    <FrameLayout
+        android:layout_width="30dp"
+        android:layout_height="30dp"
+        android:layout_alignParentRight="true"
+        android:layout_centerVertical="true">
+
+        <ImageView
+            android:id="@+id/img_title_right"
+            android:layout_width="30dp"
+            android:layout_height="30dp"
+            android:padding="4dp"
+            android:visibility="gone" />
+
+        <TextView
+            android:id="@+id/view_point"
+            android:layout_width="8dp"
+            android:layout_height="8dp"
+            android:layout_gravity="right"
+            android:layout_marginTop="2dp"
+            android:visibility="gone" />
+    </FrameLayout>
+
+    <TextView
+        android:id="@+id/tv_title_right"
+        android:layout_width="56dp"
+        android:layout_height="28dp"
+        android:textColor="@color/text_title"
+        android:gravity="center_vertical|right"
+        android:textSize="14dp"
+        android:layout_marginRight="4dp"
+        android:layout_alignParentRight="true"
+        android:layout_centerVertical="true"
+        android:visibility="gone"/>
+
+    <TextView
+        android:id="@+id/tv_right_title"
+        android:layout_width="wrap_content"
+        android:layout_height="28dp"
+        android:textColor="@color/text_title"
+        android:gravity="center"
+        android:textSize="14dp"
+        android:paddingRight="4dp"
+        android:layout_alignParentRight="true"
+        android:layout_centerVertical="true"
+        android:visibility="gone"/>
+
+    <!-- 带背景框的标题 -->
+    <TextView
+        android:id="@+id/tv_box_title"
+        android:layout_width="wrap_content"
+        android:layout_height="28dp"
+        android:textColor="@color/text_title"
+        android:gravity="center"
+        android:textSize="14dp"
+        android:paddingRight="14dp"
+        android:paddingLeft="14dp"
+        android:layout_marginRight="4dp"
+        android:layout_alignParentRight="true"
+        android:layout_centerVertical="true"
+        android:visibility="gone"/>
+
+</RelativeLayout>

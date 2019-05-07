@@ -1,0 +1,37 @@
+-- Merging decision tree log ---
+manifest
+ADDED from /Users/winding-yefeng/AndroidDemoPro/PushDemo/banner/src/main/AndroidManifest.xml:2:1-7:12
+INJECTED from /Users/winding-yefeng/AndroidDemoPro/PushDemo/banner/src/main/AndroidManifest.xml:2:1-7:12
+INJECTED from /Users/winding-yefeng/AndroidDemoPro/PushDemo/banner/src/main/AndroidManifest.xml:2:1-7:12
+INJECTED from /Users/winding-yefeng/AndroidDemoPro/PushDemo/banner/src/main/AndroidManifest.xml:2:1-7:12
+INJECTED from /Users/winding-yefeng/AndroidDemoPro/PushDemo/banner/src/main/AndroidManifest.xml:2:1-7:12
+INJECTED from /Users/winding-yefeng/AndroidDemoPro/PushDemo/banner/src/main/AndroidManifest.xml:2:1-7:12
+INJECTED from /Users/winding-yefeng/AndroidDemoPro/PushDemo/banner/src/main/AndroidManifest.xml:2:1-7:12
+	package
+		ADDED from /Users/winding-yefeng/AndroidDemoPro/PushDemo/banner/src/main/AndroidManifest.xml:3:5-31
+		INJECTED from /Users/winding-yefeng/AndroidDemoPro/PushDemo/banner/src/main/AndroidManifest.xml
+		INJECTED from /Users/winding-yefeng/AndroidDemoPro/PushDemo/banner/src/main/AndroidManifest.xml
+	android:versionName
+		INJECTED from /Users/winding-yefeng/AndroidDemoPro/PushDemo/banner/src/main/AndroidManifest.xml
+		ADDED from /Users/winding-yefeng/AndroidDemoPro/PushDemo/banner/src/main/AndroidManifest.xml:2:1-7:12
+		INJECTED from /Users/winding-yefeng/AndroidDemoPro/PushDemo/banner/src/main/AndroidManifest.xml
+	android:versionCode
+		INJECTED from /Users/winding-yefeng/AndroidDemoPro/PushDemo/banner/src/main/AndroidManifest.xml
+		ADDED from /Users/winding-yefeng/AndroidDemoPro/PushDemo/banner/src/main/AndroidManifest.xml:2:1-7:12
+		INJECTED from /Users/winding-yefeng/AndroidDemoPro/PushDemo/banner/src/main/AndroidManifest.xml
+	xmlns:android
+		ADDED from /Users/winding-yefeng/AndroidDemoPro/PushDemo/banner/src/main/AndroidManifest.xml:2:11-69
+uses-sdk
+INJECTED from /Users/winding-yefeng/AndroidDemoPro/PushDemo/banner/src/main/AndroidManifest.xml reason: use-sdk injection requested
+INJECTED from /Users/winding-yefeng/AndroidDemoPro/PushDemo/banner/src/main/AndroidManifest.xml
+INJECTED from /Users/winding-yefeng/AndroidDemoPro/PushDemo/banner/src/main/AndroidManifest.xml
+INJECTED from /Users/winding-yefeng/AndroidDemoPro/PushDemo/banner/src/main/AndroidManifest.xml
+INJECTED from /Users/winding-yefeng/AndroidDemoPro/PushDemo/banner/src/main/AndroidManifest.xml
+	android:targetSdkVersion
+		INJECTED from /Users/winding-yefeng/AndroidDemoPro/PushDemo/banner/src/main/AndroidManifest.xml
+		ADDED from /Users/winding-yefeng/AndroidDemoPro/PushDemo/banner/src/main/AndroidManifest.xml
+		INJECTED from /Users/winding-yefeng/AndroidDemoPro/PushDemo/banner/src/main/AndroidManifest.xml
+	android:minSdkVersion
+		INJECTED from /Users/winding-yefeng/AndroidDemoPro/PushDemo/banner/src/main/AndroidManifest.xml
+		ADDED from /Users/winding-yefeng/AndroidDemoPro/PushDemo/banner/src/main/AndroidManifest.xml
+		INJECTED from /Users/winding-yefeng/AndroidDemoPro/PushDemo/banner/src/main/AndroidManifest.xml
